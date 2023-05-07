@@ -2,6 +2,7 @@ import java.util.*;
 
 public class LargestinArray {
 
+    // time complexity of this program is O(n)
     // function to find the largest element in the array
     public static int getLargest(int numbers[]){
         int largest = Integer.MIN_VALUE; // -infinity
