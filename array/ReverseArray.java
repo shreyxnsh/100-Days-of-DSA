@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 public class ReverseArray {
 
     // motive is to lower the time and space complexities
@@ -9,6 +11,7 @@ public class ReverseArray {
         int first = 0;
         int last = numbers.length-1;
 
+        Scanner sc = new Scanner(System.in);
         while (first < last){
             //swap
             int temp = numbers[last];
