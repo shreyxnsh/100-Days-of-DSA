@@ -9,7 +9,7 @@ public class ReverseArray {
         System.out.println("Reversed array: " + Arrays.toString(arr));
     }
 
-    static int[] reverse(int[] arr) {2
+    static int[] reverse(int[] arr) {
         int start = 0;
         int end = arr.length - 1;
         while (start < end) {
@@ -26,7 +26,4 @@ public class ReverseArray {
         arr[j] = temp;
         return arr;
     }
-     
-    
-
 }
