@@ -1,9 +1,13 @@
-public class BinarySearch {
+package searching.binarysearch;
+
+public class CeilingNumber {
     public static void main(String[] args) {
-        
+        int[] arr = { 2, 3, 5, 9, 14, 16, 18, 19};
+        int target = 15;
+        System.out.println(ceiling(arr, target));
     }
 
-    static int binarySearch(int[] arr, int target){
+    static int ceiling(int[] arr, int target){
         int start = 0;
         int end = arr.length -1;
         while(start <= end){
@@ -22,6 +26,7 @@ public class BinarySearch {
                 end = mid - 1;
             }
         }
+        return start;
         
     }
 }
